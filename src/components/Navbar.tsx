@@ -31,6 +31,9 @@ const Navbar: React.FC = () => {
         <Link to="/crear" className={isActive('/crear')}>
           ➕ Crear Receta
         </Link>
+        <Link to="/stats" className={isActive('/stats')}>
+          📊 Estadisticas
+        </Link>
       </div>
     </nav>
   );
